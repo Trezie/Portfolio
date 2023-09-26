@@ -11,12 +11,12 @@ const AboutClients = () => {
 				{clientsHeading}
 			</p>
 			<div className="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
-				{clientsData.map((client) => (
+			{clientsData.map((client) => (
 					<AboutClientSingle
-						title={client.title}
-						image={client.img}
-						key={client.id}
-					/>
+					title={client.title}
+					image={client.img}
+					key={client.id}
+				/>
 				))}
 			</div>
 		</div>

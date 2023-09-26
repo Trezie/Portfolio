@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: "Ifeoma is a software engineer resident in Lagos, I also actively serve as a mentor for She Code Africa, specializing in guiding aspiring FrontEnd Web Developers.",
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: "Beyond my dedication to technology, I am also a pharmacist and a passionate advocate for public health. I firmly believe that leveraging technology is pivotal in advancing healthcare and ensuring its accessibility to all individuals. When I am not immersed in the activities stated above, I find solace in indulging in life's simple pleasures. Reading captivating books, watching thought-provoking movies, and cherishing invaluable moments with loved ones are among the many ways I find joy outside of my professional pursuits.",
 	},
 ];

@@ -37,7 +37,7 @@ const AppHeader = () => {
 
 	return (
 		<motion.nav
-			initial={{ opacity: 0 }}
+			initial={{ opacity: 0 }} 
 			animate={{ opacity: 1 }}
 			id="nav"
 			className="sm:container sm:mx-auto"
@@ -73,6 +73,7 @@ const AppHeader = () => {
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+
 						)}
 					</div>
 
