@@ -34,6 +34,7 @@ const ContactDetails = () => {
 							<span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
 								{contact.name}
 							</span>
+
 						</li>
 					))}
 				</ul>
