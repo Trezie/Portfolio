@@ -24,6 +24,7 @@ const ProjectSingle = ({ title, category, image, url }) => {
 			  <span className="text-lg text-ternary-dark dark:text-ternary-light">
 				{category}
 			  </span>
+			  <p>Link</p>
 
 			
 
