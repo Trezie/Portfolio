@@ -18,6 +18,7 @@ const ProjectRelatedProjects = () => {
 							className="rounded-xl cursor-pointer"
 							alt={project.title}
 							key={project.id}
+						
 						/>
 					);
 				})}

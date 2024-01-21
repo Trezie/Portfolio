@@ -11,27 +11,27 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://hashnode.com/@Trez',
 	},
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/Trezie',
 	},
 	{
 		id: 3,
 		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		url: 'https://twitter.com/',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/ifeoma-okafor-645188172',
 	},
 	{
 		id: 5,
 		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
+		url: '',
 	},
 ];
 

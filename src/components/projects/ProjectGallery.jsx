@@ -14,6 +14,7 @@ const ProjectGallery = () => {
 							className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 							alt={project.title}
 							key={project.id}
+							url={project.url}
 						/>
 					</div>
 				);
