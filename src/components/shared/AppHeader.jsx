@@ -8,6 +8,7 @@ import logoDark from '../../images/logo-dark.svg';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 
+
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const [showModal, setShowModal] = useState(false);
@@ -47,9 +48,9 @@ const AppHeader = () => {
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
 						<Link to="/">
-							{activeTheme === 'dark' ? (
+						{activeTheme === 'dark' ? (
 								<img
-									src={logoDark}
+									src={Logo}
 									className="w-36"
 									alt="Dark Logo"
 								/>
@@ -79,7 +80,7 @@ const AppHeader = () => {
 
 					{/* Small screen hamburger menu */}
 					<div className="sm:hidden">
-						<button
+					<button
 							onClick={toggleMenu}
 							type="button"
 							className="focus:outline-none"
