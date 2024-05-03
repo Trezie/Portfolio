@@ -13,7 +13,7 @@ export const projectsData = [
 		title: 'Disney Web App',
 		category: 'Web Application',
 		img: Disneyweb,
-		url: 'https://www.example.com',
+		url: 'https://disney-clone-gamma.vercel.app/',
 	},
 	{
 		id: 2,
@@ -28,14 +28,14 @@ export const projectsData = [
 		title: 'Tesla Web',
 		category: 'Web Application',
 		img: Teslaweb,
-		url: 'https://disney-clone-gamma.vercel.app/',
+		url: 'https://tesla-clone-plum.vercel.app/',
 	},
 	{
 		id: 4,
 		title: 'Tech Education Platform',
 		category: 'Web Application',
 		img: Techweb,
-		url: 'https://disney-clone-gamma.vercel.app/',
+		url: 'https://techeduca.vercel.app/',
 	},
 
 ];

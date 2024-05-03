@@ -7,6 +7,7 @@ import logoLight from '../../images/logo-light.svg';
 import logoDark from '../../images/logo-dark.svg';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
+import Logo from '../../images/Logo.png'
 
 
 const AppHeader = () => {
@@ -47,21 +48,14 @@ const AppHeader = () => {
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
-						<Link to="/">
-						{activeTheme === 'dark' ? (
-								<img
-									src={Logo}
-									className="w-36"
-									alt="Dark Logo"
-								/>
-							) : (
-								<img
-									src={logoLight}
-									className="w-36"
-									alt="Dark Logo"
-								/>
-							)}
-						</Link>
+					<Link to="/">
+						<img
+							src={Logo}
+							style={{ width: '80px', height: 'auto', borderRadius: '8px' }}
+							alt="Logo"
+						/>
+					</Link>
+
 					</div>
 
 					{/* Theme switcher small screen */}
